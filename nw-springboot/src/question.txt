@@ -1,0 +1,20 @@
+问题记载：
+1.maven无法加载包，没有@RestController注解？
+解决办法：
+在本地.m2文件夹中拷贝一份settings.xml文件进去
+.m2路径：C:\Users\14227\.m2
+settings.xml路径：\apache-maven-3.5.0\conf\settings.xml
+---------------------------------------------------------------------------------------
+2.使用idea 下载源码出现：Sources not found for？     Download Sources ？
+Cannot download sources Sources not found for: org.springframework:spring-beans:x.x.x.RELEAS
+解决办法：
+在对应的pom.xml 文件中打开 terminal，执行 mvn命令：
+mvn dependency:sources
+mvn dependency:resolve -Dclassifier=javadoc
+---------------------------------------------------------------------------------------
+3.@ConfigurationProperties(prefix="jdbc")报错？
+没有通过@EnableConfigurationProperties注册或标记为Spring组件；
+也就是说这个注解标注的类并没有添加到Spring的容器中。因此要解决这个错误，只需要将这个类加入到容器中就可以了。
+方法一：只需要在这个注解上面添加@Component就可以了
+方法二：在引用这个类的上面添加@EnableConfigurationProperties(Jdbc.class)注解
+---------------------------------------------------------------------------------------
