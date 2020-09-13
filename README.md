@@ -11,10 +11,10 @@
   </tr>
 </table>
 
-  * **[问题记录](./nw-springboot/src/question.txt)**------:question::<br>
+  * **[问题记录](./question.txt)**------:question::<br>
   
-  * **[笔记](./nw-springboot/src/note.txt)**-----:notes:<br>
+  * **[笔记](./note.txt)**-----:notes:<br>
   
-  * **[随记](./nw-springboot/src/anything.txt)**-----:trollface:<br>
+  * **[随记](./anything.txt)**-----:trollface:<br>
 
 
