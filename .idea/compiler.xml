@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nw-service-provider" />
         <module name="nw-springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="nw-service-provider" target="1.8" />
       <module name="nw-springboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nw-service-provider" options="-parameters" />
       <module name="nw-springboot" options="-parameters" />
     </option>
   </component>

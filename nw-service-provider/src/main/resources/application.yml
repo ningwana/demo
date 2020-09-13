@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql:///mybatis  # 这里为什么是这样的格式？
+    username: root
+    password: sasa
+mybatis:
+  type-aliases-package: cn.nw.service.pojo
