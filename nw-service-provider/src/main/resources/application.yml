@@ -5,5 +5,6 @@ spring:
     url: jdbc:mysql:///mybatis  # 这里为什么是这样的格式？
     username: root
     password: sasa
+    driver-class-name: com.mysql.jdbc.Driver
 mybatis:
   type-aliases-package: cn.nw.service.pojo
