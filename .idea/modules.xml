@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/nw-eureka/nw-eureka.iml" filepath="$PROJECT_DIR$/nw-eureka/nw-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nw-service-consumer/nw-service-consumer.iml" filepath="$PROJECT_DIR$/nw-service-consumer/nw-service-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/nw-service-provider/nw-service-provider.iml" filepath="$PROJECT_DIR$/nw-service-provider/nw-service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/nw-springboot/nw-springboot.iml" filepath="$PROJECT_DIR$/nw-springboot/nw-springboot.iml" />
     </modules>

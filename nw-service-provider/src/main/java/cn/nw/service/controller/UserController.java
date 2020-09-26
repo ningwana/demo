@@ -17,7 +17,7 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("{id}")
-    public User queryUserById(@PathVariable("id")Long id) {
+    public User queryUserById(@PathVariable("id") Long id) {
         return this.userService.queryUserById(id);
     }
 }
